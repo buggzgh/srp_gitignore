@@ -1,1 +1,9 @@
 node_modules/
+# SRP - Ignore all files starting with "z"
+z*.*
+
+# SRP - Ignore files ending in ".env"
+*.env
+
+# SRP - Ignores a top-level directory named "artifacts"
+/artifacts
